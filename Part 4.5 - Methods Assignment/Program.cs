@@ -52,15 +52,15 @@
                             Console.Clear();
                             Console.WriteLine("Thanks for choosing the tall cactus! First, choose the X and Y coordinates you would like the cactus to be placed at.");
                             Console.WriteLine();
-                            Console.Write("X coordinate (0 <= X <= 181): ");
-                            while (!int.TryParse(Console.ReadLine(), out asciiX) || (asciiX < 0 || asciiX > 181))
+                            Console.Write("X coordinate: ");
+                            while (!int.TryParse(Console.ReadLine(), out asciiX) || (asciiX < 0 || asciiX >= Console.BufferWidth))
                             {
-                                Console.Write("Oops! Invalid Input! Try again: ");
+                                Console.Write("Oops! Invalid Input! Value must be a number greater than zero and less than the window width. Try again: ");
                             }
-                            Console.Write("Y coordinate (0 <= Y <= 184): ");
-                            while (!int.TryParse(Console.ReadLine(), out asciiY) || (asciiY < 0 || asciiY > 184))
+                            Console.Write("Y coordinate: ");
+                            while (!int.TryParse(Console.ReadLine(), out asciiY) || (asciiY < 0 || asciiY >= Console.BufferHeight))
                             {
-                                Console.Write("Oops! Invalid Input! Try again: ");
+                                Console.Write("Oops! Invalid Input! Value must be a number greater than zero and less than the window height. Try again: ");
                             }
                             Console.WriteLine("Okay! Press ENTER to see your cactus!");
                             Console.ReadLine();
@@ -76,15 +76,15 @@
                             Console.Clear();
                             Console.WriteLine("Thanks for choosing the short cactus! First, choose the X and Y coordinates you would like the cactus to be placed at.");
                             Console.WriteLine();
-                            Console.Write("X coordinate (0 <= X <= 188): ");
-                            while (!int.TryParse(Console.ReadLine(), out asciiX) || (asciiX < 0 || asciiX > 188))
+                            Console.Write("X coordinate: ");
+                            while (!int.TryParse(Console.ReadLine(), out asciiX) || (asciiX < 0 || asciiX >= Console.BufferWidth))
                             {
-                                Console.Write("Oops! Invalid Input! Try again: ");
+                                Console.Write("Oops! Invalid Input! Value must be a number greater than zero and less than the window width. Try again: ");
                             }
-                            Console.Write("Y coordinate (0 <= Y <= 192): ");
-                            while (!int.TryParse(Console.ReadLine(), out asciiY) || (asciiY < 0 || asciiY > 192))
+                            Console.Write("Y coordinate: ");
+                            while (!int.TryParse(Console.ReadLine(), out asciiY) || (asciiY < 0 || asciiY >= Console.BufferHeight))
                             {
-                                Console.Write("Oops! Invalid Input! Try again: ");
+                                Console.Write("Oops! Invalid Input! Value must be a number greater than zero and less than the window height. Try again: ");
                             }
                             Console.WriteLine("Okay! Press ENTER to see your cactus!");
                             Console.ReadLine();
@@ -100,15 +100,15 @@
                             Console.Clear();
                             Console.WriteLine("THANKS FOR CHOOSING THE COWBOY CACTUS!! First, choose the X and Y coordinates you would like the cactus to be placed at.");
                             Console.WriteLine();
-                            Console.Write("X coordinate (0 <= X <= 168): ");
-                            while (!int.TryParse(Console.ReadLine(), out asciiX) || (asciiX < 0 || asciiX > 168))
+                            Console.Write("X coordinate: ");
+                            while (!int.TryParse(Console.ReadLine(), out asciiX) || (asciiX < 0 || asciiX >= Console.BufferWidth))
                             {
-                                Console.Write("Oops! Invalid Input! Try again: ");
+                                Console.Write("Oops! Invalid Input! Value must be a number greater than zero and less than the window width. Try again: ");
                             }
-                            Console.Write("Y coordinate (0 <= Y <= 159): ");
-                            while (!int.TryParse(Console.ReadLine(), out asciiY) || (asciiY < 0 || asciiY > 159))
+                            Console.Write("Y coordinate: ");
+                            while (!int.TryParse(Console.ReadLine(), out asciiY) || (asciiY < 0 || asciiY >= Console.BufferHeight))
                             {
-                                Console.Write("Oops! Invalid Input! Try again: ");
+                                Console.Write("Oops! Invalid Input! Value must be a number greater than zero and less than the window height. Try again: ");
                             }
                             Console.WriteLine("Okay! Press ENTER to see your cactus!");
                             Console.ReadLine();
